@@ -59,10 +59,10 @@ export default function FrontPage() {
                     I found my calm, my safest place.
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                    Through every twist, through every tide,
+                    Through every twist, every tide,
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                    The warmth in your Eyes where I reside. 💖✨
+                    The warmth in Eyes where I reside.
                     </p>
                 </div>
                 <div className="autor text-author absolute bottom-8 left-10 rotate-45">
