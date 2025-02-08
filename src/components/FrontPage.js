@@ -7,7 +7,7 @@ import './styles/frontpage.css';
 
 export default function FrontPage() {
     const [text, setText] = useState('');
-    const sentence = "We have known each other from a long time but today I have something important to tell you...\n";
+    const sentence = "We've known each other for so long, but today, there's something special I want to say... 💖😊\n";
     const typingSpeed = 200; // Adjust typing speed here
 
     useEffect(() => {
@@ -53,20 +53,20 @@ export default function FrontPage() {
             <div className="heart opacity-75">
                 <div className="text absolute -top-4 z-10 w-72 p-3 h-auto flex flex-col rotate-45 select-none">
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        In the midst of life's tumultuous sea,
+                    In life's rush and endless race,
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        Amidst chaos and uncertainty,
+                    I found my calm, my safest place.
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        I found my anchor, my guiding light,
+                    Through every twist, through every tide,
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        In your love, serene and bright.
+                    The warmth in your Eyes where I reside. 💖✨
                     </p>
                 </div>
                 <div className="autor text-author absolute bottom-8 left-10 rotate-45">
-                    ~ Manas
+                    ~ By your DUDU Ayush 💖
                 </div>
             </div>
             <div className="content-ask text-white z-10 flex flex-col flex-wrap gap-6 justify-center items-center">
@@ -76,7 +76,7 @@ export default function FrontPage() {
 
                 <Link to='/envelope'><button id='message-button' className="hidden transition-all duration-200 button button-text shadow-[5px_5px_0px_0px_rgba(109,40,217)] active:translate-x-1 active:translate-y-1 active:shadow-none mt-4 lg:text-xl box-shado w-fit h-fit bg-gradient-to-r from-[#FFECD2] to-[#FCB69F] py-4 px-5 rounded-md">
                     <div className="w-fit h-fit text-transparent bg-clip-text bg-gradient-to-r from-[#C33764] to-[#1D2671] font-bold">
-                        <span className='select-none'>See Message</span>
+                        <span className='select-none'>Wanna See something special?</span>
                     </div>
                 </button>
                 </Link>
